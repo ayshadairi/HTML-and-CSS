@@ -18,7 +18,7 @@ h1{
 /*---------------------------------------------------
     SELECT ALL SQUARES IN THE ARRAY
 ----------------------------------------------------*/
-.container .squares:nth-child(-n+4) {
+.container .squares:nth-child(-n+4){
     background-image: url("https://techacademystorage.blob.core.windows.net/htmlandcss/icons.png");
     color: #fff;
     float: left;
@@ -65,7 +65,7 @@ h1{
 /*-----------------------------------------------------
     HOVER, TRANSLATE & TRANSFORM EFFECTS
 ------------------------------------------------------*/
-.container .squares:nth-child(-n+4) :hover {
+.container .squares:nth-child(-n+4):hover{
     background-image: url("https://www.google.com/search?q=smiley+face+emoji&sca_esv=584632681&rlz=1C1RXQR_enCA981CA981&tbm=isch&sxsrf=AM9HkKm_6u4lF0NyDD7rmZt_vLwW9JMHOA:1700673970186&source=lnms&sa=X&ved=2ahUKEwjvgPyekNiCAxUvFFkFHYSoAVAQ_AUoAXoECAQQAw&biw=767&bih=730&dpr=1.25#imgrc=u9vWmvrx2stMeM");
     transform: scale(.5);
     animation-name: race;
@@ -74,19 +74,19 @@ h1{
     animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
-.squares:nth-child(1) :hover {
+.squares:nth-child(1):hover{
     background: #13b4ff;
 }
 
-.squares:nth-child(2) :hover {
+.squares:nth-child(2):hover{
     background:#d861af;
 }
 
-.squares:nth-child(3) :hover {
+.squares:nth-child(3):hover{
     background: #81205f;
 }
 
-.squares:nth-child(4) :hover {
+.squares:nth-child(4):hover{
     background: #77b800;
 }
 
